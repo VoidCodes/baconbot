@@ -188,4 +188,4 @@ setTimeout(() => {
 
  });
 
-bot.login(tokenfile.token);
+client.login(process.env.BOT_TOKEN);
